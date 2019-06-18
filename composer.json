@@ -1,0 +1,19 @@
+{
+    "name": "liaosp\/express",
+    "description": "免key，可扩展快递物流查询，第三方快递100，爱查快递，百度快递",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liaosp",
+            "email": "1194008361@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liaosp\\Express\\": "src"
+        }
+    }
+}
