@@ -20,7 +20,7 @@ class Express
      */
     const FAILURE='获取失败';
     /**
-     * @var array 通道
+     * @var array 渠道
      */
     public $channel_class=[
         'baidu'=>Baidu::class,
@@ -48,7 +48,7 @@ class Express
             throw new  Exception('code arguments cannot empty.');
         }
         if(empty($this->express_name)){
-            $this->setExpress('baidu');
+            $this->setExpress('ickd');
         }
         $results = [];
         foreach ($this->express_name as $key=>$channel){
