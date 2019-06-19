@@ -36,7 +36,7 @@ $obj->number('71291609210123');
 
 如果这些快递不满足，或者由于不稳定，在不改变原来代码，可以自行添加快递接口查询
 
-添加的接口可扩展 extend BaseChannel 抽象类
+添加的接口可继承 BaseChannel 抽象类
 
 比如你添加了一个 快递网的渠道   /yournamespace/KuaidiWang
 ```php
