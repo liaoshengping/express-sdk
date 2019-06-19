@@ -2,7 +2,6 @@
 
 
 namespace Liaosp\Express;
-require ('./Exception/Exception.php');
 
 use Liaosp\Express\Channel\Baidu;
 use Liaosp\Express\Channel\BaseChannel;
@@ -26,7 +25,7 @@ class Express
     public $channel_class=[
         'baidu'=>Baidu::class,
         'ickd'=>Ickd::class,
-        'kuaid100'=>Kuaidi100::class,
+        'kuaidi100'=>Kuaidi100::class,
     ];
     /**
      * @var array 要查询的快递
@@ -63,7 +62,7 @@ class Express
                 $results[$channel] = [
                     'channel' => $channel,
                     'status' => self::FAILURE,
-                    'exception' => $exception->getMessage(),
+                    'exception' =>$exception->getMessage(),
                 ];
             }
         }
@@ -99,11 +98,11 @@ class Express
 }
 
 
-$obj = new Express();
-$obj->setExpress('kkk');
-$obj->setExpress('baidu');
-$obj->addChannel('kkk',Kuaidi100::class);
-$obj->addChannel('ali',Baidu::class);
-$res =$obj->number('kkkss');
-var_dump($res);
+//$obj = new Express();
+//$obj->setExpress('kkk');
+//$obj->setExpress('baidu');
+//$obj->addChannel('kkk',Kuaidi100::class);
+//$obj->addChannel('ali',Baidu::class);
+//$res =$obj->number('kkkss');
+//var_dump($res);
 //var_dump($obj->channel_class);

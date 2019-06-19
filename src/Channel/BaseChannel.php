@@ -19,9 +19,23 @@ abstract class BaseChannel
      * @var string
      */
      protected $response;
+
+     protected $option=[];
     /**
      * 确认请求
      * @param $number
      */
     abstract public function query($number);
+
+    /**
+     * 转化数组
+     * @return mixed
+     */
+    abstract public function toArray();
+
+    /**
+     * 格式化
+     * @return mixed
+     */
+    abstract public function format();
 }
