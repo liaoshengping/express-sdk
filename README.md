@@ -7,9 +7,7 @@
 
 ## 安装
 
-因提供商接口调整，该项目已停止更新
-推荐使用有key的
-https://packagist.org/packages/flex/express
+
 
 ```shell
 $ composer require liaosp/express
@@ -23,7 +21,7 @@ $obj = new Express()
 
 ## 爱查快递
 ```php
-$obj->number('71291609210123'); //默认爱查快递
+$obj->number('75355662900611'); //默认百度快递，其他快递貌似没啥用了
 ```
 ## 使用快递100
 ```php
