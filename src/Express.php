@@ -48,7 +48,7 @@ class Express
             throw new  Exception('code arguments cannot empty.');
         }
         if(empty($this->express_name)){
-            $this->setExpress('ickd');
+            $this->setExpress('baidu');
         }
         $results = [];
         foreach ($this->express_name as $key=>$channel){
