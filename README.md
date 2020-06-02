@@ -7,6 +7,10 @@
 
 ## 安装
 
+因提供商接口调整，该项目已停止更新
+推荐使用有key的
+https://packagist.org/packages/flex/express
+
 ```shell
 $ composer require liaosp/express
 ```
