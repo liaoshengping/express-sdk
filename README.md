@@ -19,7 +19,7 @@ use \Liaosp\Express\Express
 $obj = new Express()
 ```
 
-## 爱查快递
+## 百度快递（默认）
 ```php
 $obj->number('75355662900611'); //默认百度快递，其他快递貌似没啥用了
 ```
