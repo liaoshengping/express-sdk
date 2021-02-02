@@ -1,9 +1,18 @@
-<h1 align="center"> express </h1>
+<h1 align="center"> 免费快递SDK </h1>
+
+[![Latest Stable Version](https://poser.pugx.org/liaosp/express/v/stable)](https://packagist.org/packages/liaosp/express)
+[![Total Downloads](https://poser.pugx.org/liaosp/express/downloads)](https://packagist.org/packages/liaosp/express)
+[![Daily Downloads](https://poser.pugx.org/liaosp/express/d/daily)](https://packagist.org/packages/liaosp/express)
+[![License](https://poser.pugx.org/liaosp/express/license)](https://packagist.org/packages/liaosp/express)
+[![StyleCI](https://styleci.io/repos/53163405/shield)](https://styleci.io/repos/53163405/)
+[![Build Status](https://travis-ci.org/liaosp/express.svg?branch=master)](https://travis-ci.org/liaosp/express)
+[![PHPUnit Status](https://github.com/liaosp/express/workflows/PHPUnit/badge.svg?branch=master)](https://github.com/liaosp/express/actions?query=branch%3Amaster)
+
 
 <p align="center">免key，可扩展快递物流查询，第三方快递100，爱查快递，百度快递</p>
 
 ## 环境需求
-* PHP >= 7.0s
+* PHP >= 7.0
 
 ## 安装
 
