@@ -23,17 +23,9 @@ $obj = new Express()
 ```php
 $obj->number('75355662900611'); //默认百度快递，其他快递貌似没啥用了
 ```
-## 使用快递100
-```php
-$obj->setExpress('kuaidi100');
-$obj->number('71291609210123'); 
-```
-## 查询快递100和爱查快递
-```php
-$obj->setExpress('kuaidi100');
-$obj->setExpress('ickd');
-$obj->number('71291609210123'); 
-```
+
+
+
 ## 扩展
 
 如果这些快递不满足，或者由于不稳定，在不改变原来代码，可以自行添加快递接口查询
